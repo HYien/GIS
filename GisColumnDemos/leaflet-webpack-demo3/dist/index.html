@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>地图分屏对比</title>
+  <style>
+    html, body {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+    }
+
+    .map-wrap {
+      display: flex;
+      height: 100%;
+      width: 100%;
+    }
+
+    #LMap, #RMap {
+      width: 50%;
+    }
+  </style>
+</head>
+<body>
+  <div class="map-wrap">
+    <div id="LMap"></div>
+    <div id="RMap"></div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
