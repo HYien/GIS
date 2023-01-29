@@ -1,0 +1,27 @@
+{
+  "name": "leaflet-webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "live-server ./ --port=9090 --open=./dist --cors --host=localhost"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "dependencies": {
+    "css-loader": "^6.7.1",
+    "file-loader": "^1.1.11",
+    "leaflet": "^1.9.2",
+    "live-server": "^1.2.2",
+    "loadash": "^1.0.0",
+    "lodash": "^4.17.21",
+    "style-loader": "^3.3.1"
+  }
+}
